@@ -210,6 +210,28 @@
             opacity: 0.8;
         }
 
+        .header-image {
+            margin: 40px 0;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .pincel-image {
+            max-width: 600px;
+            width: 90%;
+            height: auto;
+            border: 3px solid #121212;
+            box-shadow: 0 10px 30px rgba(18, 18, 18, 0.3);
+            transition: all 0.3s ease;
+        }
+
+        .pincel-image:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(18, 18, 18, 0.4);
+        }
+
         /* Main content layout */
         .main-content {
             flex: 1;
@@ -429,6 +451,11 @@
                 padding: 0 15px;
             }
 
+            .pincel-image {
+                max-width: 450px;
+                width: 95%;
+            }
+
             /* Single section responsive */
             .featured-section {
                 padding: 40px 20px;
@@ -525,6 +552,8 @@
     <h1 class="masthead" id="gallery-title">RE:VIVAL DALI</h1>
     <p class="subtitle" id="subtitle">GALERÍA DE ARTE ONLINE</p>
     <p class="date-line">EST. 2024 • ARTE DIGITAL CONTEMPORÁNEO</p>
+    <div class="header-image"><img src="https://raw.githubusercontent.com/alejandrabarcena/landingpage/refs/heads/main/pincel.jpg" alt="Pincel artístico digital" class="pincel-image" onerror="this.src=''; this.alt='Imagen no disponible'; this.style.display='none';">
+    </div>
    </header>
    <main class="main-content"><!-- RE:VIVAL DALI Section -->
     <section class="hero-section" id="revival">
@@ -867,5 +896,5 @@
             });
         }
     </script>
- <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9981b696e032c18e',t:'MTc2MjA2NjM4OS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'9981caae81adc18e',t:'MTc2MjA2NzIxMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
